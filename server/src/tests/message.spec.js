@@ -6,7 +6,7 @@ import models, { connectDb } from '../models';
 let db;
 
 before(async () => {
-  db = await connectDb('mongodb://localhost:27017/mytestdatabase');
+  db = await connectDb('mongodb://localhost:27017/testing');
 });
 
 after(async () => {

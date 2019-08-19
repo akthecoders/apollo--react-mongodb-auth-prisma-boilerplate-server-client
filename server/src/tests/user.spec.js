@@ -10,7 +10,7 @@ let expectedUser;
 let expectedAdminUser;
 
 before(async () => {
-  db = await connectDb('mongodb://localhost:27017/mytestdatabase');
+  db = await connectDb('mongodb://localhost:27017/testing');
 
   expectedUsers = await models.User.find();
 
