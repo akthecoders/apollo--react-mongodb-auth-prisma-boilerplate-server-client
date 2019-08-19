@@ -1,0 +1,16 @@
+{
+  "name": "fullstack-ram",
+  "version": "1.0.0",
+  "description": "Full Stack React Mongo Apollo Server Client Prisma",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "app": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Akshay Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^4.1.2"
+  }
+}
